@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background:linear-gradient(#00c9ff,#92fe9d);
+    height: 100vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    display:flex;
+    width: 800px;
+    height: 400px;
+   
+    align-items: center;
+      position: relative;
+     overflow: hidden;
+    
+}
+
+.left-section{
+     flex: 1;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background:rgba(0,0, 0,0.6);
+      box-shadow: 0 10px 20px rgba(0,0, 0,0.6);
+   margin-right: 20px;
+  border-radius: 30px;
+    color: white;
+}
+.right-section{
+    flex: 1.5;
+    display: flex;
+    color: white;
+    flex-direction: column;
+     background:rgba(0,0, 0,0.6);
+     box-shadow: 0 10px 20px rgba(0,0, 0,0.6);
+    border-radius: 30px;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.c1{
+
+margin-right: 120px;
+
+}
+.c2{
+    margin-right: 220px;
+}
+.c3{
+    margin-right:48px ;
+}
+.c4{
+    margin-right: 24px;
+}
+.c5{
+    margin-right:68px;
+}
+.title{
+    font-family: sans-serif;
+   text-align: center;
+    font-size: x-large; 
+    margin-bottom: 50px;
+    letter-spacing: 0.5px;
+   background: linear-gradient(#00c9ff,#92fe9d);
+   -webkit-background-clip: text;
+   color: transparent;
+}
+.details{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    list-style: none;
+    font-size: 18px;
+    line-height: 2.2;
+    
+
+}
+
+.left-section img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 10px 20px rgba(0,0, 0,0.6);
+    border: 4px solid #fff;
+    margin-bottom:
+  
+}
+.footer{
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: auto;
+    font-family: sans-serif;
+    font-style: italic;
+    
+}
+.name{
+       background: linear-gradient(#00c9ff,#92fe9d);
+   -webkit-background-clip: text;
+   color: transparent;
+   margin-bottom: 30px;
+  
+}
+.job{
+    font-size: large;
+    font-family: sans-serif;
+    letter-spacing: 0.5; 
+    margin-bottom: 70px;
+}
+.details span{
+    font-weight: bold;
+
+}
+.left-section,.right-section{
+    padding: 30px;
+}
+@media(max-width:768px){
+    .card{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+      
+}
